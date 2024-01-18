@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Fetch</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="https://img.icons8.com/3d-fluency/94/github.png" type="image/x-icon">
+</head>
+<body class="bg-gray-200 pb-16">
+  <div class="pattern-wavy pattern-blue-500 pattern-bg-white 
+  pattern-size-6 pattern-opacity-20"></div>
+  <div class="container mx-auto px-4">
+      <div class="text-center w-full p-8 bg-white mt-12 card-lg">
+          <h1 class="text-4xl font-bold">GitHub Profile Fetcher</h1>
+          <h1 class="text-sm text-info mt-2 mb-8">Made by <a class="underline" target="_blank" href="https://github.com/prachibhadauria">Prachi Bhadauria</a></h1>
+          <input type="text" id="username" autocomplete="off" placeholder="Enter GitHub Username" class="py-2 px-3 border border-black stack-shadow-sm focus:outline-none focus:!shadow-none transition-all">
+          <button id="fetchBtn" class="bg-black text-white hover:!shadow-none font-bold py-2 px-4 border border-black transition-all stack-shadow-sm ml-3">Fetch</button>
+      </div>
+      <div id="userData" class="mt-8"></div>
+  </div>
+  <script src="/main.js"></script>
+</body>
+</html>

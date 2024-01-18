@@ -1,0 +1,22 @@
+.card-lg{
+  box-shadow: 8px 8px 0px #ffb703,
+  16px 16px 0px #3a86ff;
+}
+
+.stack-shadow-sm{
+  box-shadow: 
+  6px 6px 0px #00000050,
+  3px 3px 0px #00000050;
+}
+
+.stack-shadow-md{
+  box-shadow: 
+  12px 12px 0px #00000050,
+  6px 6px 0px #00000050;
+}
+
+.stack-shadow-lg{
+  box-shadow: 
+  16px 16px 0px #00000050,
+  8px 8px 0px #00000050;
+}
